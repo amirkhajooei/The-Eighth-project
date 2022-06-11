@@ -1,0 +1,406 @@
+/* Box-sizing border-box */
+
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    direction: ltr;
+}
+
+html {
+    /* font-family: IRANSans; */
+    font-weight: 300;
+    font-size: .9em;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* body */
+
+.body {
+    background-color: black;
+}
+
+.body-all {
+    display: flex;
+}
+
+
+/* sidbar */
+
+.sidbar {
+    width: 75px;
+    border-right: solid;
+    border-color: #ffffff78;
+    height: 635px;
+    border-width: 0.5px;
+}
+
+.sidbar-1 {
+    width: 75px;
+}
+
+.sidbar-1-1 {
+    transform: scale(0.4);
+    position: relative;
+    left: -10px;
+    top: -30px;
+}
+
+.sidbar-1 a {
+    color: #ffffffe8;
+    position: relative;
+    bottom: 30px;
+    left: 18.5px;
+    font-size: 15px;
+}
+
+.sidbar-1 i {
+    background-color: #80808029;
+    border: solid;
+    border-width: 1px;
+    border-radius: 11px;
+    border-color: #80808040;
+    padding: 7px;
+}
+
+.sidbar-1 i:hover {
+    transform: scale(2);
+    border: none;
+    color: white;
+    background-color: rgba(245, 222, 179, 0);
+}
+
+.sidbar-1-2,
+.sidbar-1-3,
+.sidbar-1-4,
+.sidbar-1-5 {
+    padding-bottom: 20px;
+}
+
+.sidbar-1-3 a {
+    font-size: 16px;
+}
+
+.sidbar-1-4 a {
+    font-size: 13px;
+}
+
+.sidbar-1-5 a {
+    font-size: 13px;
+}
+
+.sidbar-1-6 {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+
+.sidbar-1-6 i {
+    border: none;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+
+/* nav */
+
+.nav {
+    width: 1276px;
+    height: 100px;
+}
+
+.nav-all {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-1-1 input {
+    padding: 9px 55px;
+    position: relative;
+    top: 20px;
+    left: 22px;
+    background-color: #2a2a2a;
+    border: none;
+    border-radius: 20px;
+}
+
+.nav-1-1 button {
+    position: absolute;
+    top: 27px;
+    left: 110px;
+    background-color: #fffafa00;
+    border: none;
+}
+
+.nav-1-1 i {
+    color: white;
+    font-size: 19px;
+}
+
+.nav-2 {
+    display: flex;
+    padding-top: 30px;
+    padding-right: 15px;
+}
+
+.nav-2 a {
+    color: white;
+    font-size: 16px;
+    background-color: #8080801c;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.nav-2 a:hover {
+    font-size: 17px;
+    background-color: #2a2a2a00;
+    border: none;
+}
+
+.nav-2-1 {
+    padding-right: 20px;
+}
+
+.nav-2-2 img {
+    transform: scale(0.099);
+    border-radius: 400px;
+    position: relative;
+    bottom: 159px;
+}
+
+
+/* nike */
+
+.nike {
+    display: flex;
+}
+
+.nike-1 {
+    display: flex;
+    position: relative;
+    left: 30px;
+    top: 40px;
+}
+
+.nike-1 img {
+    height: 200px;
+    width: 200px;
+    border-radius: 20px;
+}
+
+.nike-1-1 {
+    padding-right: 160px;
+    padding-left: 30px;
+    font-family: sans-serif;
+}
+
+.nike-1-1 {
+    font-family: sans-serif;
+    height: 200px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.nike-1-1-1 {
+    padding-top: 30px;
+    padding-bottom: 10px;
+    color: gray;
+}
+
+.nike-1-1-1 span {
+    font-size: 20px;
+    font-weight: 600;
+    color: black;
+    position: relative;
+    top: -5px;
+}
+
+.nike-1-1-2 {
+    font-weight: 600;
+    padding-bottom: 20px;
+    font-size: 16px;
+}
+
+.nike-1-1-2 samp {
+    text-decoration: line-through;
+    color: red;
+    position: relative;
+    left: 10px;
+    top: -1px;
+}
+
+.nike-1-1-2 span {
+    color: green;
+    position: relative;
+    top: 5px;
+    left: 1px;
+}
+
+.nike-1-1-3 a {
+    background-color: black;
+    color: white;
+    padding: 6px 20px;
+    border-radius: 13px;
+}
+
+.nike-1-2 img {
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+.nike-1-4 img {
+    height: 100px;
+    width: 100px;
+}
+
+.nike-1-2,
+.nike-1-3,
+.nike-1-4 {
+    padding-right: 20px;
+}
+
+.nike-1-3 img:hover,
+.nike-1-4 img:hover {
+    transform: scale(1.1);
+}
+
+.nike-1-1 {
+    background-color: #f6f6f6;
+}
+
+.nike-2 {
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 30px;
+}
+
+.nike-2 a {
+    color: white;
+    font-size: 17px;
+    font-family: sans-serif;
+    position: relative;
+    left: 5px;
+}
+
+.nike-2-2 i {
+    position: relative;
+    left: -30px;
+}
+
+.nike-3 {
+    padding-left: 30px;
+    padding-top: 10px;
+    display: flex;
+}
+
+.nike-3-all {
+    display: grid;
+    padding-right: 27px;
+}
+
+.nike-3-1 img {
+    height: 200px;
+    width: 200px;
+    border-radius: 20px;
+}
+
+.nike-3-1 img:hover {
+    transform: scale(1.01);
+}
+
+.nike-3-2 {
+    color: white;
+    font-family: sans-serif;
+    display: flex;
+}
+
+.nike-3-2-1 span {
+    position: relative;
+    top: 5px;
+}
+
+.nike-3-2-2 button {
+    position: relative;
+    left: 55px;
+    top: 12px;
+    background-color: black;
+    color: white;
+    border: solid;
+    border-width: 1px;
+    padding: 5px 15px;
+    border-radius: 20px;
+}
+
+.nike-3-2-2 button:hover {
+    transform: scale(1.1);
+}
+
+
+/* footer */
+
+.footer-all {
+    background-color: #242424;
+    position: relative;
+    top: 45px;
+    border-top-left-radius: 180px;
+    border-bottom-right-radius: 100px;
+}
+
+.footer-1 {
+    position: relative;
+    left: 113px;
+    top: 10px;
+    padding-top: 10px;
+    width: 99px;
+    padding-bottom: 115px;
+}
+
+.footer-1 a {
+    color: #ffffffe8;
+}
+
+.footer-1 a:hover {
+    border-bottom: solid;
+    border-width: 1px;
+    border-color: white;
+    font-size: 16px;
+    padding-bottom: 5px;
+    color: white;
+}
+
+.footer-1-1,
+.footer-1-1,
+.footer-1-1,
+.footer-1-1,
+.footer-1-1 {
+    padding-bottom: 10px;
+}
+
+.footer-2 {
+    width: 290px;
+}
+
+.footer-2-1 {
+    position: relative;
+    left: 113px;
+    width: 206px;
+    color: white;
+    font-size: 16px;
+}
+
+.footer-2-2 {
+    color: #ffffff87;
+    font-family: system-ui;
+    padding-left: 43px;
+    padding-bottom: 15px;
+}
+
+.footer-2-2 a {
+    color: #2020ff;
+}
